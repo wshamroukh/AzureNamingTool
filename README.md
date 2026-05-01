@@ -8,7 +8,7 @@ The Azure Naming Tool was created to help administrators define and manage their
 
 ## [CLICK HERE FOR DOCUMENTATION!](https://github.com/mspnp/AzureNamingTool/wiki)
 
-## How to run it on ubuntu server with apache2
+## How to run it on ubuntu server (or better on WSL2) with apache2
 - First install dotnet: `sudo apt update && sudo apt install dotnet-sdk-10.0 apache2 -y`
 - Download the **AzureNamingTool.zip** file from [Release page](https://github.com/mspnp/AzureNamingTool/releases)
 - Extract the folder to /var/www/ and build the project
