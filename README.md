@@ -70,4 +70,5 @@ sudo systemctl restart apache2
 sudo systemctl start aznaming
 sudo systemctl status aznaming
 ```
+- If you are on WSL2, you can add a C:\Windows\System32\drivers\etc\hosts file entry for your WSL2 to point to aznaming.contoso.com
 - Now try to access the Azure Naming website using your http://aznaming.contoso.com or http://localhost or http://ServerIPAddress
